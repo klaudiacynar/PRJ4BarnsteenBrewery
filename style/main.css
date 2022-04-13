@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Quicksand:wght@300;400;500&display=swap);
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-margin-top: 110px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.navbar-nav>.nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav>.nav-item:last-child() {
+    margin-right: 0;
+}
+
+.hr-1 {
+    width: 15%;
+    border-width: 2px;
+    background-color: rgba(29, 29, 29, 0.671);
+}
+h2 {
+    color: #36a9e1;
+    font-family:'Quicksand';
+}
+h5 {
+    color: #e94683;
+}
+p {
+    font-family:'Barlow';
+}
